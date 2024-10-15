@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="API Testing">
+    <test name="Board">
+        <classes>
+            <class name="BoardTest"/>
+        </classes>
+    </test>
+
+    <test name="List">
+        <classes>
+            <class name="ListTest"/>
+        </classes>
+    </test>
+
+    <test name="Label">
+        <classes>
+            <class name="LabelTest"/>
+        </classes>
+    </test>
+
+    <test name="Card">
+        <classes>
+            <class name="CardTest"/>
+        </classes>
+    </test>
+</suite>
